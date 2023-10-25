@@ -1,7 +1,10 @@
-import { Inter } from 'next/font/google'
+import { Manrope, Marcellus, Inter, Raleway } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
+const raleway = Raleway({ subsets: ['latin'], variable: '--font-raleway' })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const marcellus = Marcellus({subsets:['latin'], weight: ['400'], variable: '--font-marcellus' })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${manrope.variable} ${marcellus.variable} ${inter.variable} ${raleway.variable}`}>{children}</body>
     </html>
   )
 }
