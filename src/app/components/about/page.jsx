@@ -40,12 +40,12 @@ const About = () => {
                     </div>
                     <div className='flex sm:gap-5 gap-3 sm:px-0 px-4'>
                         <div className='flex flex-col sm:gap-5 gap-3'>
-                            <Image alt='' src={Img1} />
-                            <Image alt='' src={Img2} />
+                            <Image alt='' className='hover:scale-105 transition-all duration-200' src={Img1} />
+                            <Image alt='' className='hover:scale-105 transition-all duration-200' src={Img2} />
                         </div>
                         <div className='flex flex-col sm:gap-5 gap-3'>
-                            <Image alt='' src={Img3} />
-                            <Image alt='' src={Img4} />
+                            <Image alt='' className='hover:scale-105 transition-all duration-200' src={Img3} />
+                            <Image alt='' className='hover:scale-105 transition-all duration-200' src={Img4} />
                         </div>
                     </div>
                 </div>

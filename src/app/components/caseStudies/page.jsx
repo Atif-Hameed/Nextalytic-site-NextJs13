@@ -7,7 +7,7 @@ import Image from 'next/image';
 const CardStruct = (props) => {
     return (
         <>
-            <div className='bg-white p-2 cursor-pointer rounded-3xl border-[1px] border-[#E8E8E8]'>
+            <div className='bg-white p-2 cursor-pointer rounded-3xl border-[1px] hover:shadow-techShadow border-[#E8E8E8]'>
                 <div>
                     {props.img}
                 </div>
@@ -38,7 +38,7 @@ const CaseStudies = () => {
                             <h1 className='xl:text-5xl lg:text-[2.5rem] sm:text-4xl text-2xl text-[#091438] font-manrope font-medium'>See More Case Studies Here.</h1>
                         </div>
                         <div className='lg:w-auto w-full flex lg:justify-normal justify-end'>
-                            <button className='text-white flex sm:gap-3 gap-1 group hover:scale-105 transition-all duration-200 bg-[#091438] font-inter sm:text-sm text-xs sm:px-5 px-3 sm:py-3 py-2 rounded-3xl'>Explore All Case Studies <FiArrowUpRight className='sm:text-xl text-base group-hover:rotate-45 transition-all duration-200' /></button>
+                            <button className='text-white flex sm:gap-3 gap-1 group hover:scale-105 transition-all duration-200 bg-[#091438] font-inter sm:text-base text-xs sm:px-5 px-3 sm:py-3 py-2 rounded-3xl'>Explore All Case Studies <FiArrowUpRight className='sm:text-xl text-base group-hover:rotate-45 transition-all duration-200' /></button>
                         </div>
                     </div>
                     <div className='grid sm:grid-cols-2 grid-cols-1 sm:gap-y-0 gap-y-4 gap-x-4 lg:w-[70%] w-full'>

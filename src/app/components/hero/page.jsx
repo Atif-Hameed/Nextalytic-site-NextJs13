@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <>
             <div className='w-full sm:h-screen' >
-                <div className='hero-bg relative w-full flex flex-col sm:h-full xl:px-24 lg:px-16 sm:px-8 px-4 sm:py-8 py-0 sm:pb-0 pb-4'>
+                <div className='hero-bg relative w-full flex flex-col sm:h-full xl:px-24 lg:px-16 sm:px-8 px-4 sm:py-6 py-0 sm:pb-0 pb-4'>
                     <Navbar />
                     <div className='sm:mt-0 mt-12 flex xl:gap-6 gap-0 items-center sm:px-6 px-2 sm:flex-grow sm:flex-nowrap flex-wrap'>
                         <div className='xl:w-[55%] lg:w-[58%] sm:w-[60%] w-full'>
@@ -21,8 +21,8 @@ const Hero = () => {
                                 </h1>
                                 <p className='sm:text-base text-sm xl:w-[95%] text-[#6D7379] font-manrope'>Harness the power of Nextalytic&apos;s transformative tech expertise. Explore Services to or Learn More about our digital journey.</p>
                                 <div className='lg:mt-4 md:mt-3 mt-2 flex gap-4'>
-                                    <button className='hover:scale-105 transition-all duration-200 font-inter border-0 bg-[#091438] text-white lg:px-5 md:px-4 px-3 lg:py-2.5 py-2 text-sm rounded-3xl'>Explore Services</button>
-                                    <button className='text-balck flex items-center font-medium font-inter group gap-0.5'>Learn More <FiArrowUpRight className='text-xl transition-all duration-200 group-hover:rotate-45'/></button>
+                                    <button className='hover:scale-105 transition-all duration-200 font-inter border-0 bg-[#091438] text-white lg:px-5 md:px-4 px-3 lg:py-2.5 py-2 text-base rounded-3xl'>Explore Services</button>
+                                    <button className='text-balck flex items-center hover:text-[#FE8F4F] font-medium font-inter group gap-0.5'>Learn More <FiArrowUpRight className='text-xl transition-all duration-200 group-hover:rotate-45'/></button>
                                 </div>
                             </div>
                         </div>

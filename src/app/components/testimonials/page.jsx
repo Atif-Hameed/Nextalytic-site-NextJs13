@@ -1,6 +1,6 @@
 'use client'
 import Img1 from '@/assets/customerImg.svg'
-import Quotes from '@/assets/Vector.svg'
+import Quotes from '@/assets/quotes.svg'
 import { GrFormNextLink } from 'react-icons/gr';
 import { GrFormPreviousLink } from 'react-icons/gr';
 import 'slick-carousel/slick/slick.css';
@@ -13,7 +13,7 @@ const CardStruct = (props) => {
     return (
         <>
             <div className='py-12 relative'>
-                <Image src={Quotes} alt='' className='absolute top-2 left-10' />
+                <Image src={Quotes} alt='' className='absolute w-[4.3rem] top-2 left-10' />
                 <div className='border-[1px] flex flex-col gap-4 bprder-[#EAECF0] bg-white py-6 pt-10 px-6 rounded-3xl'>
                     <div className='border-[1px] border-b-[#EAECF0] border-t-0 border-l-0 border-r-0 pb-4'>
                         <p className='text-[#636363] font-manrope leading-6 text-sm'>
@@ -23,7 +23,7 @@ const CardStruct = (props) => {
                     <div className='flex gap-3'>
                         <Image alt='' src={Img1} />
                         <div className='flex flex-col'>
-                            <h1 className='text-[#181818] font-manrope font-medium text-lg'>
+                            <h1 className='text-[#181818] font-manrope font-semibold text-lg'>
                                 {props.name}
                             </h1>
                             <p className='text-[#636363] font-manrope font-medium text-sm'>Satisfied Client</p>
